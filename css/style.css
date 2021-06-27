@@ -1,0 +1,127 @@
+body{
+    background: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 10%;
+    margin-inline-start: 20px;
+}
+#list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(104, 41, 41);
+    float: left;
+}
+#navbar{
+    float: right;
+    padding-top: 3%;
+    font-family: 'Francois One', sans-serif;
+    
+}
+.navi-item{
+    font-size:15px;
+    text-align: center;
+    display: inline;
+    text-align: center;
+    padding: 14px 19px;
+    margin-inline-end: 50px;
+}
+.link{
+    text-decoration: none;
+    color: #EEEEEE;
+    
+}
+#banner{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(41, 49, 83, 0.7)),url("/img/banner2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.banner-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    color: #EEEEEE;
+    text-align: center;
+    padding-top: 9%;
+    width: 100%;
+}
+#about h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    color: #222831;
+    text-align: center;
+}
+#about-text{
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #222831;
+
+}
+#about-list{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #222831;
+    text-align: justify;
+}
+#about{
+    background: #CDF0EA;
+}
+#skills-head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color: #222831;
+    text-align: center;
+}
+#skills-list{
+    text-align: left
+}
+.skills-star{
+    float:right;
+}
+#portfolyo{
+    background: #F9F9F9;
+
+}
+#portfolyo h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    color: #222831;
+    text-align: center;
+}
+.portfolyo-text{
+    color: #EEEEEE;
+}
+#contact{
+    background: #0A1931;
+    color: #EFEFEF;
+}
+#contact h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    color: #EFEFEF;
+    text-align: center;
+}
+.contact-link{
+    text-decoration: none;
+    color: #EFEFEF;
+    text-align: center;
+}
