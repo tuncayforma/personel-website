@@ -17,7 +17,6 @@ body{
 }
 #navbar{
     float: right;
-    padding-top: 3%;
     font-family: 'Francois One', sans-serif;
     
 }
@@ -30,10 +29,20 @@ body{
     margin-inline-end: 50px;
     color: #EEEEEE;
 }
+#navbar #menu-icon{
+    display: none;
+}
+@media (max-width: 960px) {
+    nav ul .navi-item    { display: none; }
+    .banner-text{margin-top: 35%;}
+    #navbar #menu-icon{
+        display:inline-block !important;
+        font-size: 40px;
+        color: #CDF0EA;
+    }
+  }
 .link{
     text-decoration: none;
-    
-    
 }
 #banner{
     min-height: 100vh;
