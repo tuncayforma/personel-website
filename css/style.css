@@ -28,10 +28,11 @@ body{
     text-align: center;
     padding: 14px 19px;
     margin-inline-end: 50px;
+    color: #EEEEEE;
 }
 .link{
     text-decoration: none;
-    color: #EEEEEE;
+    
     
 }
 #banner{
